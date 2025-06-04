@@ -1,0 +1,39 @@
+.lead{
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  width: 984px;
+  height: 983px;
+  margin: 0 auto;
+}
+
+.lead__title {
+  display: flex;
+  text-align: center;
+  font-weight: 900;
+  line-height: 100%;
+  font-size: 96px;
+  color: #ffffff;
+  width: 720px;
+  height: 200px;
+  margin: auto
+}
+
+.lead__subtitle {
+  display: flex;
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff;
+  width: 720px;
+  height: 72px;
+  margin: auto;
+}
+
+.lead__image {
+  width: 984px;
+  height: 615px;
+  margin: auto;
+  object-fit: contain;
+}
