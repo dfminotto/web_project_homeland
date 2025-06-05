@@ -1,29 +1,26 @@
 .intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 984px;
+  max-width: 984px;
+  width: 100%;
   margin: auto;
 }
 
 .intro__title {
-  display: flex;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   color: #ffffff;
-  width: 830px;
+  max-width: 830px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .intro__text {
-  display: flex;
-  flex-direction: column;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
   color: #ffffff;
-  width: 738px;
-
+  max-width: 738px;
+  text-align: start;
 }
 
 .intro__text-span {
@@ -32,14 +29,85 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  width: 732px;
+  max-width: 732px;
+  margin: 10px auto 32px;
 }
 
 .intro__text-description {
-  display: flex;
   font-weight: 400;
   font-size: 16px;
   list-style: 1.63;
   color: #ffffff;
-  width: 722px;
+  max-width: 722px;
+  text-align: start;
+}
+
+
+@media screen and (max-width: 768px) {
+  .intro{
+    max-width: 720px;
+  }
+
+  .intro__title {
+    max-width: 707px;
+    font-size: 45px;
+    line-height: 49px;
+    margin: 0 13px 50px;
+  }
+
+  .intro__text{
+    max-width: 720px;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0 24px 58px;
+  }
+
+  .intro__text-span {
+    max-width: 720px;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 32px;
+  }
+
+  .intro__text-description {
+    max-width: 720px;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 320px;
+    margin: auto;
+  }
+
+  .intro__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: auto;
+  }
+
+  .intro__text {
+    max-width: 288px;
+    font-size: 24px;
+    line-height: 30px;
+    margin: auto;
+  }
+
+  .intro__text-span {
+    max-width: 288px;
+    font-size: 24px;
+    line-height: 34px;
+    margin: auto;
+  }
+
+  .intro__text-description {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 163%;
+    margin: auto;
+  }
 }

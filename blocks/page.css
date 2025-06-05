@@ -1,6 +1,22 @@
 .page {
+  display: flex;
+  flex-direction: column;
   background-color: #2A2C2F;
   max-width: 1280px;
   margin: auto;
   font-family: "Inter";
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 728px) {
+  .pago {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
+  }
 }

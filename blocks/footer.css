@@ -1,7 +1,6 @@
 .footer {
   display: flex;
-  justify-content: center;
-  margin: auto;
+  margin: 92px auto 0;
 }
 
 .footer__copyright {
@@ -9,5 +8,26 @@
   font-size: 14px;
   line-height: 16px;
   color: #ffffffff;
-  margin: auto;
+}
+
+@media screen and (max-width: 728px) {
+  .footer {
+    max-width: 728px;
+  }
+
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: 166px;
+  }
+
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }

@@ -2,3 +2,17 @@
 width: 254px;
 height: 70px;
 }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 254px;
+    height: 66px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 188px;
+    height: 52px;
+  }
+}
