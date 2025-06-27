@@ -1,3 +1,5 @@
+# Acesse o site <a href="https://dfminotto.github.io/web_project_homeland/" target="_blank">aqui</a>
+
 # Tripleten web_project_homeland
 
 Projeto de website responsivo desenvolvido com HTML, CSS e Flexbox, com base em protótipo criado no
