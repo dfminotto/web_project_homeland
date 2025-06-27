@@ -231,7 +231,7 @@
     max-width: 288px;
     height: 36px;
     /* height: 100%; */
-    margin: 0 16px 0;
+    margin: 0 auto 50px;
   }
   .place__text-buttom {
     font-size: 14px;
