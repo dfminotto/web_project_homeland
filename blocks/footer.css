@@ -8,6 +8,7 @@
   font-size: 14px;
   line-height: 16px;
   color: #ffffffff;
+  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 728px) {
@@ -27,7 +28,8 @@
   }
 
   .footer__copyright {
-    font-size: 14px;
+    display: block;
+    font-size: 12px;
     line-height: 14px;
   }
 }

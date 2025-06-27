@@ -1,47 +1,235 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Projeto 5 do bootcamp TrilpleTen">
-  <meta name="author" content="Djone Minotto">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="Kentucky, Burndi, Gales, Ucrania">
-  <link rel="stylesheet" href="./pages/index.css">
-  <link rel="shortcut icon" href="./favicon.png">
-  <title>Galeria TripleTen</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projeto 5 do bootcamp TrilpleTen" />
+    <meta name="author" content="Djone Minotto" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="Kentucky, Burndi, Gales, Ucrania" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="./favicon.png" />
+    <title>Galeria TripleTen</title>
+  </head>
 
-  <div class="page">
+  <body>
+    <div class="page">
+      <header class="header">
+        <img src="./images/logo.png" alt="" class="logo" />
+      </header>
 
-    <header class="header">
-      <img src="./images/logo.png" alt="" class="logo">
-   </header>
+      <main class="content">
+        <section class="lead">
+          <h1 class="lead__title">De Pátria para Pátria</h1>
+          <h2 class="lead__subtitle">
+            Uma jornada épica do Kentucky ao Burundi pelo País de Gales e Ucrânia
+          </h2>
+          <img src="./images/lead_image.jpg" alt="" class="lead__image" />
+        </section>
+        <section class="intro">
+          <h2 class="intro__title">Conheça um pouco mais sobre a localização dos seus amigos</h2>
+          <p class="intro__text">
+            Cada pessoa é um artista livre, chamado a transformar as condições, pensamentos e
+            estruturas que moldam nossas vidas. <span class="intro__text-span">— Joseph Beuys</span>
+          </p>
+          <p class="intro__text-description">
+            A cidade de TripleTen reuniu profissionais de diversos cantos do mundo. Hoje, a Galeria
+            de Arte TripleTen tem o orgulho de apresentar histórias e fotos de algumas das pessoas
+            que dedicam seu tempo e esforço para fazer com que os futuros profissionais de
+            tecnologia desta cidade se sintam em casa. Cada um de nós tem uma história única sobre o
+            lugar de onde viemos. Sinta-se à vontade para adicionar sua própria história e uma obra
+            de arte visual dedicada à sua cidade natal à nossa coleção. Não importa de onde você é,
+            estamos felizes por você ser nosso vizinho.
+          </p>
+        </section>
 
-    <main class="content">
+        <section class="photo">
+          <div class="photos">
+            <img
+              src="./images/001.png"
+              alt="Imagem de uma praia com o céu nublado"
+              class="photo__image" />
+            <img
+              src="./images/002.png"
+              alt="Imagem de uma praia com o céu limpo"
+              class="photo__image" />
+            <img
+              src="./images/003.png"
+              alt="Imagem de uma igreja antiga na hora do por do sol"
+              class="photo__image" />
+            <img
+              src="./images/004.png"
+              alt="Imagem de um rio com uma ponte e uma cidade grande atras"
+              class="photo__image" />
+            <img
+              src="./images/005.png"
+              alt="Imagem de um campo de vegetação aberto com o céu azul, algumas núves e algumas arvóres"
+              class="photo__image" />
+            <img
+              src="./images/006.png"
+              alt="Imagem de um jardim com placas com as regras do jardim"
+              class="photo__image" />
+            <img
+              src="./images/007.png"
+              alt="Imagem de uma casa indigina com um homem na entrada apontando para uma placa"
+              class="photo__image" />
+            <img
+              src="./images/008.png"
+              alt="Imagem de umas casas ainda em construção em um terreno envolvido pela natureza"
+              class="photo__image" />
+          </div>
+        </section>
 
-      <section class="lead">
-        <h1 class="lead__title">De Pátria para Pátria</h1>
-        <h2 class="lead__subtitle">Uma jornada épica do Kentucky ao Burundi pelo País de Gales e Ucrânia</h2>
-        <img src="./images/lead_image.jpg" alt="" class="lead__image">
-      </section>
-      <section class="intro">
-        <h2 class="intro__title">Conheça um pouco mais sobre a localização dos seus amigos</h2>
-        <p class="intro__text">Cada pessoa é um artista livre, chamado a transformar as condições, pensamentos e estruturas que moldam nossas vidas. <span class="intro__text-span">— Joseph Beuys</span></p>
-        <p class="intro__text-description">A cidade de TripleTen reuniu profissionais de diversos cantos do mundo. Hoje, a Galeria de Arte TripleTen tem o orgulho de apresentar histórias e fotos de algumas das pessoas que dedicam seu tempo e esforço para fazer com que os futuros profissionais de tecnologia desta cidade se sintam em casa. Cada um de nós tem uma história única sobre o lugar de onde viemos. Sinta-se à vontade para adicionar sua própria história e uma obra de arte visual dedicada à sua cidade natal à nossa coleção. Não importa de onde você é, estamos felizes por você ser nosso vizinho.</p>
-      </section>
+        <section class="places">
+          <div class="place">
+            <h2 class="place__title">Criccieth, País de Gales</h2>
+            <img
+              src="./images/010.png"
+              alt="imagem de um lindo local cercado por casas e natureza na beira de um rio com o céu azul com algumas núvens"
+              class="place__image" />
+            <button class="place__button">
+              <p class="place__text-buttom">Compre esta obra de arte como NFT</p>
+            </button>
+            <div class="places__artists">
+              <h2 class="place__subtitle">ARTISTAS</h2>
+              <p class="place__artist">Steffan Warren, editor-chefe</p>
+              <p class="place__artist">Kseniya Glagoleva, gerente de projeto</p>
+            </div>
+            <div class="place__paragraphs">
+              <p class="place__paragraph">
+                A ruína medieval do Castelo de Cricieth tem vista para a cidade abaixo de uma rocha
+                que se projeta para o mar. Acredita-se que tenha sido construído por Llewelyn, o
+                Grande, no século XIII. Cerca de 900 anos depois, a auto-intitulada *Pérola de Gales
+                nas margens de Snowdonia* tornou-se um destino turístico popular durante os meses de
+                verão.
+              </p>
+              <p class="place__paragraph">
+                A uma curta caminhada da estrada do castelo, você pode desfrutar do melhor sorvete
+                do mundo no Cadwalader's, cujo ingrediente secreto, segundo rumores, são algas
+                marinhas de origem local. Outra reivindicação à fama é o fato de que Criccieth
+                ganhou o prêmio *Wales in Bloom* por cinco anos consecutivos por suas espetaculares
+                exibições florais pela cidade. Foi também a casa de David Lloyd George, o único
+                galês a ocupar o cargo de primeiro-ministro do Reino Unido.
+              </p>
+            </div>
+          </div>
 
+          <div class="place">
+            <h2 class="place__title">Berea, EUA</h2>
+            <img
+              src="./images/011.png"
+              alt="Imagem ed uma rua com belos jardins, algumas casas e um céu azul"
+              class="place__image" />
+            <button class="place__button">
+              <p class="place__text-buttom">Compre esta obra de arte como NFT</p>
+            </button>
+            <div class="places__artists">
+              <h2 class="place__subtitle">ARTISTAS</h2>
+              <p class="place__artist">Travis Turner, autor e editor</p>
+            </div>
+            <div class="place__paragraphs">
+              <p class="place__paragraph">
+                Berea é uma pequena cidade localizada na parte central do Kentucky. A cidade é
+                cercada por belas florestas e campos. É conhecida como a capital do artesanato do
+                estado, e os visitantes encontrarão muitas oportunidades de compras: lojas com
+                bijuterias artesanais, velas, artigos de madeira, galerias, ateliês de vidro e muito
+                mais. A cidade realiza um festival anual que celebra o "pão de colher", um prato
+                local feito com pão de milho e servido com uma colher de pau.
+              </p>
+              <p class="place__paragraph">
+                No entanto, provavelmente é mais conhecido pela faculdade local. O Berea College foi
+                fundado em 1855 e foi o primeiro colégio no sul a ser racialmente integrado, bem
+                como o primeiro a ser misto. De forma um tanto singular, não cobra mensalidades -
+                todo aluno recebe uma bolsa de estudos integral.
+              </p>
+            </div>
+          </div>
 
-    </main>
+          <div class="place">
+            <h2 class="place__title">Muramvya, Burundi</h2>
+            <img
+              src="./images/013.png"
+              alt="imagem de um lindo local cercado por casas e natureza na beira de um rio com o céu azul com algumas núvens"
+              class="place__image" />
+            <button class="place__button">
+              <p class="place__text-buttom">Compre esta obra de arte como NFT</p>
+            </button>
+            <div class="places__artists">
+              <h2 class="place__subtitle">ARTISTAS</h2>
+              <p class="place__artist">Grevisse Kenguruka, editor técnico</p>
+            </div>
+            <div class="place__paragraphs">
+              <p class="place__paragraph">
+                Muramvya é uma das 18 províncias de Burundi. Na era do reino, Muramvya era a capital
+                real e em 2007, por causa de sua paisagem cultural e natural, foi adicionada à Lista
+                Provisória do Patrimônio Mundial da UNESCO. Está localizada no centro de Burundi,
+                entre as capitais políticas e econômicas do país.
+              </p>
+              <p class="place__paragraph">
+                O clima é bastante frio à noite, mas durante o dia, você pensaria que está no céu. A
+                2.665 metros (8.743 pés) acima do nível do mar, o Monte Teza é um dos lugares mais
+                frios da província. Mas essa brisa fresca permite uma das maiores plantações de chá
+                e café do país, que representam a maior parte das exportações do Burundi.
+              </p>
+              <p class="place__paragraph">
+                O Parque Nacional de Kibira, uma das maiores reservas de vida selvagem para macacos,
+                se sobrepõe a quatro províncias, incluindo Muramvya. Este Parque Nacional
+                encontra-se no ápice das belas montanhas do Congo-Nile Divide, variando entre 1.550
+                e 2.660 metros de altitude. Está repleta de uma bela vegetação e fonte para os
+                vários rios e riachos que fornecem água em todo o país.
+              </p>
+            </div>
+          </div>
 
-    <footer class="footer">
+          <div class="place">
+            <h2 class="place__title">Verê, Brasil</h2>
+            <img
+              src="./images/014.jpg"
+              alt="imagem área de uma cidade do interior com bastante vegetação e casas ao redor"
+              class="place__image" />
+            <button class="place__button">
+              <p class="place__text-buttom">Compre esta obra de arte como NFT</p>
+            </button>
 
-      <h2 class="footer__copyright">&#169; 2025. Djone F. Minotto</h2>
+            <div class="places__artists">
+              <h3 class="place__subtitle">ARTISTAS</h3>
+              <p class="place__artist">Djone Minotto, gerente de projeto</p>
+            </div>
 
-    </footer>
+            <div class="place__paragraphs">
+              <p class="place__paragraph">
+                A tranquila cidade de Verê, no sudoeste do Paraná, repousa entre colinas suaves,
+                rios cristalinos e paisagens que parecem saídas de uma pintura. Fundada por
+                imigrantes italianos e poloneses no início do século XX, Verê preserva até hoje um
+                forte espírito comunitário e tradições culturais que ecoam nas festas típicas, no
+                sotaque cantado dos moradores e na culinária recheada de sabores coloniais.
+              </p>
+              <p class="place__paragraph">
+                Caminhar pelas ruas de Verê é como viajar no tempo — igrejas centenárias, pequenas
+                propriedades agrícolas e o aroma de pão caseiro assando nos fornos a lenha formam um
+                cenário acolhedor e autêntico. A cidade também é conhecida por seu clima ameno e
+                pela hospitalidade de seu povo, que recebe visitantes com um sorriso fácil e um
+                chimarrão sempre à disposição.
+              </p>
+              <p class="place__paragraph">
+                A poucos minutos do centro, a natureza toma conta do horizonte: cachoeiras
+                escondidas, trilhas em meio a mata nativa e o rio Chopim cortando as paisagens
+                proporcionam momentos de paz e contemplação. Verê ainda é lar de eventos que
+                celebram sua herança cultural, como a Festa do Colono, um verdadeiro mergulho nas
+                raízes do interior paranaense.
+              </p>
+              <p class="place__paragraph">
+                Pequena em tamanho, mas imensa em charme, Verê é um daqueles lugares onde o tempo
+                parece correr devagar — o suficiente para que se aproveite cada detalhe.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
 
-  </div>
-
-</body>
+      <footer class="footer">
+        <h2 class="footer__copyright">&#169; 2025. Djone F. Minotto</h2>
+      </footer>
+    </div>
+  </body>
 </html>
